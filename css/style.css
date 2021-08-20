@@ -1,0 +1,22 @@
+button {
+    background-color: white;
+    padding: 7px 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    outline: greenyellow;
+    color: whitesmoke;
+    background-color: rgb(48, 48, 48);
+}
+.heading{
+    margin-top: 50px;
+}
+#cart{
+    margin-top: 100px;
+}
+tbody{
+    font-weight: bold;
+}
