@@ -49,6 +49,7 @@ applyPromo.addEventListener("click", function applyPromo() {
         grandTotalPriceValue - grandTotalPriceValue * (20 / 100);
       grandTotalPrice.innerText = parseFloat(newPriceWithDiscount);
       document.getElementById("input-promo").value = "";
+      document.getElementById("apply-promo").disabled = true;//apply promo one time
     } else {
       return;
     }
